@@ -22,6 +22,7 @@ for (i in 1:21){
   order <- rbind(order, order_data[[i]])
 }
 
+names(order) <- c("order_id", "driver_id", "passenger_id", "start_district_hash", "dest_district_hash", "Price", "Time")
 save(order, file="order.Rdata")
 
 #read traffic_data
@@ -40,7 +41,7 @@ traffic <- c()
 for (i in 1:21){
   traffic <- rbind(traffic, traffic_data[[i]])
 }
-
+names(traffic) <- c("district_hash", "tj_level_1", "tj_level_2", "tj_level_3", "tj_level4", "tj_time")
 save(traffic, file = "traffic.Rdata")
 
 #read weather_data
@@ -58,7 +59,7 @@ weather <- c()
 for (i in 1:21){
   weather <- rbind(weather, weather_data[[i]])
 }
-
+names(weather) <- c("Time", "Weather", "temperature", "PM2.5")
 save(weather, file = "weather.Rdata")
 
 #read cluster_data
