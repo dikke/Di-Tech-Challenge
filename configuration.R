@@ -4,14 +4,14 @@ require(stringr)
 require(reshape2)
 ###
 ## set work directory 
-DiTech_directory <- "E:/GitHub/Di-Tech-Chanllenge/Di-Tech-Challenge/"
+DiTech_directory <- "E:/GitHub/DiTech_Challenge/DiTech_Challenge/"
 setwd(DiTech_directory);
 ## clean work directory
 rm(list = ls());
-DiTech_directory <- "E:/GitHub/Di-Tech-Chanllenge/Di-Tech-Challenge/"
+DiTech_directory <- "E:/GitHub/DiTech_Challenge/DiTech_Challenge/"
 ## training data directory setting
 ## data from season_1----------------------------------------------
-Ditech_originData_path_season_1 <- "E:/GitHub/Di-Tech-Chanllenge/Di-Tech-Challenge_Origin_Data/season_1/"
+Ditech_originData_path_season_1 <- "E:/GitHub/DiTech_Challenge/DiTech_Challenge_Origin_Data/season_1/"
 
 training_order_data_path_season_1 <- paste0(Ditech_originData_path_season_1,"training_data/order_data")
 training_traffic_data_path_season_1 <- paste0(Ditech_originData_path_season_1,"training_data/traffic_data")
@@ -28,14 +28,14 @@ test_poi_data_path_season_1_set_1  <- paste0(Ditech_originData_path_season_1,"te
 
 
 ## data_saving_path
-training_data_saving_path_season_1 <- paste0(DiTech_directory, "../Di-Tech-Challenge_Working_Data/season_1/training_data/")
-test_data_saving_path_season_1_set_1 <- paste0(DiTech_directory, "../Di-Tech-Challenge_Working_Data/season_1/test_set_1/")
+training_data_saving_path_season_1 <- paste0(DiTech_directory, "../DiTech_Challenge_Working_Data/season_1/training_data/")
+test_data_saving_path_season_1_set_1 <- paste0(DiTech_directory, "../DiTech_Challenge_Working_Data/season_1/test_set_1/")
 
-cleaned_data_saving_path_season_1 <- paste0(DiTech_directory, "../Di-Tech-Challenge_Working_Data/cleaned_data/season_1/")
+cleaned_data_saving_path_season_1 <- paste0(DiTech_directory, "../DiTech_Challenge_Working_Data/cleaned_data/season_1/")
 ## ------------------------------------------------------------data from season_1
 
 ## data from season_2---------------------------------------------------
-Ditech_originData_path_season_2 <- "E:/GitHub/Di-Tech-Chanllenge/Di-Tech-Challenge_Origin_Data/season_2/"
+Ditech_originData_path_season_2 <- "E:/GitHub/DiTech_Challenge/DiTech_Challenge_Origin_Data/season_2/"
 
 training_order_data_path_season_2 <- paste0(Ditech_originData_path_season_2,"training_data/order_data")
 training_traffic_data_path_season_2 <- paste0(Ditech_originData_path_season_2,"training_data/traffic_data")
@@ -52,13 +52,13 @@ test_poi_data_path_season_2_set_2  <- paste0(Ditech_originData_path_season_2,"te
 
 
 ## data_saving_path
-training_data_saving_path_season_2 <- paste0(DiTech_directory, "../Di-Tech-Challenge_Working_Data/season_2/training_data/")
-test_data_saving_path_season_2_set_2 <- paste0(DiTech_directory, "../Di-Tech-Challenge_Working_Data/season_2/test_set_2/")
+training_data_saving_path_season_2 <- paste0(DiTech_directory, "../DiTech_Challenge_Working_Data/season_2/training_data/")
+test_data_saving_path_season_2_set_2 <- paste0(DiTech_directory, "../DiTech_Challenge_Working_Data/season_2/test_set_2/")
 ## -----------------------------------------------------------data from season_2
 
 
 ## cleaned data saving path from season_2
-cleaned_data_saving_path_season_2 <- paste0(DiTech_directory, "../Di-Tech-Challenge_Working_Data/cleaned_data/season_2/")
+cleaned_data_saving_path_season_2 <- paste0(DiTech_directory, "../DiTech_Challenge_Working_Data/cleaned_data/season_2/")
 
 
 
