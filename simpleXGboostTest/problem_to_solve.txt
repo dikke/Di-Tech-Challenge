@@ -1,0 +1,1 @@
+1、用write.table写入dataframe存为.dat文件 再次读入时，将原numeric型矩阵自动变为了int。如何再数据写入读入阶段解决。
